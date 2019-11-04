@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>json</groupId>
+  <artifactId>com.json.exercice</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+<dependencies>
+    <!-- JSON-P -->
+    <dependency>
+        <groupId>org.glassfish</groupId>
+        <artifactId>jakarta.json</artifactId>
+        <version>1.1.5</version>
+        <scope>runtime</scope>
+    </dependency>
+
+    <!-- JSON-B API -->
+    <dependency>
+        <groupId>jakarta.json.bind</groupId>
+        <artifactId>jakarta.json.bind-api</artifactId>
+        <version>1.0.1</version>
+    </dependency>
+
+    <!-- Yasson (JSON-B implementation) -->
+    <dependency>
+        <groupId>org.eclipse</groupId>
+        <artifactId>yasson</artifactId>
+        <version>1.0.3</version>
+        <scope>runtime</scope>
+    </dependency>
+</dependencies>
+
+ <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+</project>
